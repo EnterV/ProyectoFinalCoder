@@ -1,7 +1,0 @@
-agregar botones de redes sociales
-
-agregar favicon 32x32px
-
-realizar diseño responsive
-
-

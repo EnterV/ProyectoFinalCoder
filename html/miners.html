@@ -9,6 +9,14 @@
     <meta name="description" content="Crypto News page">
     <meta name="keywords" content="crypto, defi, miners, ICO">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="reset" href="../CSS/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,11 +26,16 @@
 </head>
 
 <body class="body">
+    <div class="container">
 
-    <header class="header">
-        <h1 class="header__title">Crypto News</h1>
-     <!--   <img class="header__logo" src="./img/Logo.png" alt="cryptoLogo"> -->
-    </header>
+        <header class="header">
+            <h1 class="header__title">Crypto News</h1>
+
+            <h3>
+                
+                <small class="text-muted">All about crypto</small>
+              </h3>
+        </header>
 
 <nav class="navigationmenu">
 
@@ -34,69 +47,85 @@
         </ul>
 </nav>
 
-<nav class="navigationbanner">
+<div class="row">
+    <div class="col-sm-12 d-none d-sm-block"></div>
+    </nav>
+
+    <nav class="navigationbanner">
         <section class="navigation__auto">
 
             <iframe class="navigation__iframebanner"
-            src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=no" width=100%>
+                src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover=no"
+                width=100%>
             </iframe>
 
         </section>
-</nav>
+    </nav>
+</div>
 
-<div class="container__main__aside">
+<div class="row">
+    <div class="col-sm-12 col-md-12">
 
-<main class="main">
-    <section class="main__box1">
-        <article class="main__article1">
-            <hgroup class="hgroup">
-                <h2 class="main__article1__subtitle1">ASIC</h2>
-            </hgroup>
+    </div>
 
-                <p class="main__article1__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consequatur accusamus eaque sed, dolorem nostrum cum aliquam doloremque saepe tenetur optio? Expedita, maiores blanditiis? Autem, quidem molestias possimus ullam dolores ad assumenda nulla neque itaque temporibus necessitatibus sequi suscipit repudiandae omnis repellat eveniet sit veritatis minima vel debitis voluptate tempore. 
-                </p>
+        <main class="main">
+            <section class="main__box1">
+                <article class="main__article1">
+                    <hgroup class="hgroup">
+                        <h2 class="main__article1__subtitle1">GPU Mining</h2>
+                    </hgroup>
 
-                <img src="" alt="ASIC" class="main__article1__img__asic">
+                    <p class="main__article1__paragraph">Descubrí todo el potencial detrás del mundo de la cripto mineria y enterate de lo último relacionado al hardware más utilizado para este tipo de práctica.
+                    </p>
 
-            <footer class="main__article1__footer">
-                    Lorem ipsum dolor sit amet.
-            </footer>
-    </section>
+                    <img src="../img/gpu.jpg" alt="gpu_rig" class="main_article1__img">
 
-    <section class="main__box2">
-        </article>
+                    <footer class="main__article1__footer">
+                        <span><a class="span__btc" href="https://www.dailyadvent.com/news/28b824148a13aa966f791a03ed8aaf58-Cryptocurrency--Mining-News--Page-1"
+                                title="gpu">GPU</a></span>
+                    </footer>
+            </section>
 
-        <article class="main__article2">
+            <section class="main__box2">
+                </article>
 
-            <hgroup class="hgroup">
-                <h2 class="main__article2__subtitle">GPU</h2>
-            </hgroup>
-                <p class="main__article2__paragraph">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consequatur accusamus eaque sed, dolorem nostrum cum aliquam doloremque saepe tenetur optio? Expedita, maiores blanditiis? Autem, quidem molestias possimus ullam dolores ad assumenda nulla neque itaque temporibus necessitatibus sequi suscipit repudiandae omnis repellat eveniet sit veritatis minima vel debitis voluptate tempore. 
-                </p>
-                <img src="" alt="GPU" class="main__article1__img__gpu">
+                <article class="main__article2">
 
-            <footer class="main__article2__footer">
-                    Lorem ipsum dolor sit amet.
-            </footer>
+                    <hgroup class="hgroup">
+                        <h2 class="main__article2__subtitle">ASIC Mining</h2>
+                    </hgroup>
+                    <p class="main__article2__paragraph">
+                        No te pierdas todo el contenido tendencia enfocado a la mineria de bitcoin, la blockchain mas famosa del mundo, con tecnologia asic.
+                    </p>
+                    <img src="../img/asic.jpg" alt="ethImg" class="main__article2__img">
 
-        </article>
-    </section>
-</main>
+                    <footer class="main__article2__footer">
+                        <span><a class="span__eth" href="https://es.cointelegraph.com/tags/asic"
+                                title="asic">ASIC</a></span>
+                    </footer>
 
-<div class="charts">
-    <aside class="aside">
-                    <iframe class="aside__embedcharts" src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=50&pref_coin_id=1505&graph=yes"></iframe>           
-    </aside>
+                </article>
+            </section>
+        </main>
+
+</div>
+
+<div class="row">
+    <div class="col-sm-12"></div>
+
+    <div>
+        <footer class="footer">
+            <h6 class="footer__h6">© 2021 Crypto News - All rights reserved</h6>
+        </footer>
+    </div>
+
+</div>
 </div>
 
 </div>
-
-<footer class="footer">
-                 <h6 class="footer__h6">© 2021 Crypto News - All rights reserved</h6>
-</footer>
 
 </body>
+
 
 </html>
 
