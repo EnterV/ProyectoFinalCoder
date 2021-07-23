@@ -1,0 +1,22 @@
+.navigationbanner .navigation__auto {
+    height: 60px;
+    background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #F2C15E;
+    border-radius: 4px;
+    text-align: right;
+    line-height: 14px;
+    block-size: 40px;
+    font-size: 12px;
+    font-feature-settings: normal;
+    box-shadow: inset 0 -20px 0 0 #F2C15E;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    .navigationbanner .navigation__iframebanner {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+}

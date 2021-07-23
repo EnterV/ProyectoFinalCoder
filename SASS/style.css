@@ -1,0 +1,88 @@
+.header {
+  height: 160px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(#FFEBCD), color-stop(#FFF2BF), color-stop(#E8D7AE), to(#E8C9AE));
+  background-image: linear-gradient(to left, #FFEBCD, #FFF2BF, #E8D7AE, #E8C9AE);
+  color: #000;
+  border: 1px solid #f7931a;
+  border-radius: 4px;
+}
+
+.header .header__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.header:hover {
+  border: none;
+  background: #F2C15E;
+  color: #fff;
+  padding: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+.navigationbanner .navigation__auto {
+  height: 60px;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #F2C15E;
+  border-radius: 4px;
+  text-align: right;
+  line-height: 14px;
+  block-size: 40px;
+  font-size: 12px;
+  -webkit-font-feature-settings: normal;
+          font-feature-settings: normal;
+  -webkit-box-shadow: inset 0 -20px 0 0 #F2C15E;
+          box-shadow: inset 0 -20px 0 0 #F2C15E;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navigationbanner .navigation__auto .navigationbanner .navigation__iframebanner {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, right top, left top, from(#FFEBCD), color-stop(#FFF2BF), color-stop(#E8D7AE), to(#E8C9AE));
+  background-image: linear-gradient(to left, #FFEBCD, #FFF2BF, #E8D7AE, #E8C9AE);
+  font-size: medium;
+  border-radius: 4px;
+  border: 1px solid #f7931a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.footer .footer__h6 {
+  color: black;
+  font-size: 30px;
+  border-bottom: 2px solid #f7931a;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

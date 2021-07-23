@@ -1,9 +1,9 @@
 /*BODY*/
 
-* {
+/* * {
     font-family: 'Bebas Neue', cursive;
     list-style-type: none;
-}
+} */
 
 .body {
     background-color: rgb(173, 135, 86);
@@ -15,16 +15,16 @@
 
 /*HEADER*/
 
-.header {
+/* .header {
     color: #000;
     background-image: linear-gradient(to left, #FFEBCD, #FFF2BF, #E8D7AE, #E8C9AE);
     text-align: center;
     height: 160px;
     border: 1px solid #f7931a;
     border-radius: 4px;
-}
+} */
 
-.header:hover {
+/* .header:hover {
     border: none;
     background: #F2C15E;
     color: #fff;
@@ -34,13 +34,13 @@
     position: relative;
     box-sizing: border-box;
     transition: all 1000ms ease;
-}
+} */
 
-.header__title {
+/* .header__title {
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
     text-align: center;
-}
+} */
 
 /*NAV*/
 
@@ -83,7 +83,7 @@
     transition: all 500ms ease;
 }
 
-.navigationbanner .navigation__auto {
+/* .navigationbanner .navigation__auto {
     height: 60px;
     background-color: #fff;
     overflow: hidden;
@@ -104,7 +104,7 @@
     border: 0;
     margin: 0;
     padding: 0;
-}
+} */
 
 /*MAIN*/
 
@@ -159,7 +159,7 @@
     font-size: 20px;
 }
 
-.main_article1__img {
+.main__article1__img {
     width: 200px;
     height: 133px;
 }
@@ -264,7 +264,7 @@
 
 /*FOOTER*/
 
-.footer {
+/* .footer {
     background-image: linear-gradient(to left, #FFEBCD, #FFF2BF, #E8D7AE, #E8C9AE);
     font-size: medium;
     border-radius: 4px;
@@ -283,11 +283,11 @@
     font-size: 30px;
     border-bottom: 2px solid #f7931a;
     text-align: center;
-}
+} */
 
 /* CONTACT */
 
-.main__contact {
+/* .main__contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -313,7 +313,7 @@
 
 .container__form .form__email:focus {
     font-size: 25px;
-}
+} */
 
 /* FORM */
 

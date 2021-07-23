@@ -1,0 +1,29 @@
+$height: 640px;
+
+.header {
+    height: $height/4;
+    text-align: center;
+    background-image: linear-gradient(to left, #FFEBCD, #FFF2BF, #E8D7AE, #E8C9AE);
+    color: #000;
+    border: 1px solid #f7931a;
+    border-radius: 4px;
+
+    .header__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        text-align: center;
+
+    }
+
+    &:hover {
+        border: none;
+        background: #F2C15E;
+        color: #fff;
+        padding: 35px;
+        font-size: 16px;
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        transition: all 1000ms ease;
+    }
+}
