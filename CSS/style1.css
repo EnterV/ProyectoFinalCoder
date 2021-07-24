@@ -6,12 +6,8 @@
 }
 
 .body {
-    background-color: rgb(173, 135, 86);
+    background-color: #717171;
 }
-
-/* .container {
-    width: auto;
-} */
 
 /*HEADER*/
 
@@ -187,7 +183,7 @@
     border-radius: 5px;
     position: relative;
     box-sizing: border-box;
-    transition: all 500 ease;
+    transition: all 500ms ease;
 }
 
 /* MAIN BOX 2 */
